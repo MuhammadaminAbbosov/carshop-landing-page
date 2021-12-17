@@ -1,0 +1,85 @@
+.section-1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url("/assets/images/empty-space-product-show-dark-room-with-light-spot-background\ 1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 100px;
+}
+
+header {
+    padding: 25px 126px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav  {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+
+    a {
+        color: #676767;
+        font-size: 16px;
+        line-height: 26px;
+
+        &:first-child , &:hover{
+            color: white;
+        }
+
+        
+    }
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    div {
+        width: 2px;
+        height: 25px;
+        background-color: #676767;
+    }
+
+    img {
+        &:hover {
+            transform: rotateY(360deg);
+            transition: 2s;
+        }
+    }
+}
+
+.comaro {
+    width: 600px;
+    margin-left: 250px;
+}
+
+.sec-1-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .img {
+            width: 700px;
+    }
+
+    .right-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 35px;
+        p {
+            color: #676767;
+
+            &:hover {
+                color: white;
+            }
+        }
+    }
+}
+
+

@@ -4,11 +4,11 @@
     box-sizing: border-box;
 }
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import "_header.scss";
+@import "section-1.scss";
 
 body {
-    background-color: #0F0D0E;
     font-family: 'Montserrat', sans-serif;
+    background: #0F0D0E;
 }
 a {
     text-decoration: none;
